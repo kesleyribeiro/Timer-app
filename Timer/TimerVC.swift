@@ -11,9 +11,9 @@ import UIKit
 class TimerVC: UIViewController {
 
     // Vars to timers
-    var second = 50
-    var minute = 59
-    var hour = 23
+    var second = 0
+    var minute = 0
+    var hour = 0
     var day = 0
     var currentTime = ""
     var timer = Timer()
